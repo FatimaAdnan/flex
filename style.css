@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid red;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+height: 100vh;
+align-items: first baseline;
+
+}
+
+.box1,.box2,.box3{
+    border: 1px solid blue;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    height: 200px;
+    background-color: skyblue;
+}
